@@ -13,7 +13,7 @@
       ansible.builtin.debug:
         msg: URL_TASK - {{ URL_TASK }}
 
-  roles:
+  roles:                                     #  example of task level variable
     - demo
 
 
