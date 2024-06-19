@@ -20,3 +20,4 @@
 # play level variable can be accessed by all the tasks & roles
 # task level variable can be accessed by within hat task only
 # role level variable is accessible in that role tasks
+# var from ClI is having higher precedence
