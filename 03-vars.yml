@@ -21,3 +21,6 @@
 # task level variable can be accessed by within hat task only
 # role level variable is accessible in that role tasks
 # var from ClI is having higher precedence
+
+# If the value of any key is a variable then double quote it.
+# ex:: msg:{{ URL }}  this needs to given as  msg: "{{ URL }}"
