@@ -13,6 +13,18 @@
       ansible.builtin.debug:
         msg: URL_TASK - {{ URL_TASK }}
 
+   # store result of a task, to OUTPUT variable
+    - name: demo
+      ansible.builtin.shell: uptime
+      register: OUTPUT
+
+   # retrive the OUTPUT variable
+    - name: OUTPUT variable
+      ansible.builtin.debug:
+        msg: "{{ OUTPUT }}"
+
+
+
   roles:                                     #  example of task level variable
     - demo
 
