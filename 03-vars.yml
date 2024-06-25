@@ -19,9 +19,14 @@
       register: OUTPUT
 
    # retrive the OUTPUT variable
-    - name: OUTPUT variable
+    - name: print OUTPUT of previous task
       ansible.builtin.debug:
         msg: "{{ OUTPUT }}"
+
+    # retrive the OUTPUT variable using json query
+    - name: print OUTPUT of previous task with only output of shell command
+      ansible.builtin.debug:
+        msg: "{{ OUTPUT.stdout }}"
 
 
 
