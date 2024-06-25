@@ -4,7 +4,12 @@
     - name: Vegetables
       ansible.builtin.debug:
         msg: Vegetables
+      when: "Vegetables"
 
     - name: Fruits
       ansible.builtin.debug:
         msg: Fruits
+      when: "Fruits"
+
+
+ # whenever you want to execute one task from all, if you use when then that task will execute
