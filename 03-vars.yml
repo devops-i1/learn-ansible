@@ -24,7 +24,7 @@
         msg: "{{ OUTPUT }}"
 
     # retrive the OUTPUT variable using json query
-    - name: print OUTPUT of previous task with only output of shell command
+    - name: print OUTPUT of previous task with only output of shell command not meta data
       ansible.builtin.debug:
         msg: "{{ OUTPUT.stdout }}"
 
