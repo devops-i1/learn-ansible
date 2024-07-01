@@ -1,0 +1,8 @@
+- name: Demo on vault
+  hosts: localhost
+  vars:
+    PASSWORD: abcd@123
+  tasks:
+    - name: Print
+      ansible.builtin.debug:
+        msg: PASSWORD - {{ PASSWORD }}
