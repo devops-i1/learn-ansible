@@ -4,9 +4,9 @@
     - name: Vegetables
       ansible.builtin.debug:
         msg: Vegetables
-      tags: "Vegetables"
+      tags: Vegetables
 
     - name: Fruits
       ansible.builtin.debug:
         msg: Fruits
-      tags: "Fruits"
+      tags: Fruits
