@@ -4,12 +4,12 @@
     - name: Vegetables
       ansible.builtin.debug:
         msg: Vegetables
-      when: type == "Vegetables"
+      when: type == "vegetables"
 
     - name: Fruits
       ansible.builtin.debug:
         msg: Fruits
-      when: type == "Fruits"
+      when: type == "fruits"
 
 
 
