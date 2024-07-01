@@ -12,4 +12,5 @@
       when: type == "Fruits"
 
 
+
  # whenever you want to execute one task from all, if you use when then that task will execute
