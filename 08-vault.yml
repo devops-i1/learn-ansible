@@ -1,7 +1,7 @@
 - name: Demo on vault
   hosts: localhost
   vars:
-    PASSWORD: !vault |
+    PASSWORD: !vault |                                             # vault password -- password; type this in prompt
                         $ANSIBLE_VAULT;1.1;AES256
                         63393664656333323964356461383437643831353433353165643832646134323431346230666465
                         3839633539363837396339383435353765383937336434330a323836653335663638613262353737
